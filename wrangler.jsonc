@@ -7,7 +7,9 @@
   
 
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "traces": { "enabled": false },
+    "logs": { "enabled": true, "invocation_logs": false }
   },
 
   // D1 Database for relational data (users, rooms, events, memberships)
